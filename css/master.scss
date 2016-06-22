@@ -186,13 +186,15 @@ body{
 					border: 1px black solid;
 					border-radius: 3px;
 					width: 348px;
-					height: 75px;
+					height: inherit;
+					padding-bottom: 5px;
 					float: left;
 					h1{
+						width: 100%;
 						font-family: ring;
 						text-align: center;
 						font-size: 18px;
-						line-height: 75px;
+						margin: 30px auto;
 					}
 				}
 				.MD{
