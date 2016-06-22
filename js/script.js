@@ -1,0 +1,2 @@
+var styleChoice = function () {
+}

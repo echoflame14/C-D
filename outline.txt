@@ -1,0 +1,11 @@
+//style
+	//I want to make a text adventure game that will utilize traditional rpg elements
+		// Elements like stats and saving throws.
+			// I want the player to be able to choose which stats they want to allocate where.
+		// I want the site to have one page (no navbars)
+			// I want a sort of fantasy theme for the site
+			// I want the feel of the site to change for the specific event that is happening in the story.
+				// I think parallaxed css would help to immerse the player/user
+					// I need to resherch parallax for this site
+				// Such as the player getting hurt and the background-color changing to reflect it.
+				// Or the screen darkening when the player enters a cave.

@@ -1,0 +1,29 @@
+doctype html
+head
+	meta(charset="utf-8")
+	link(rel="stylesheet", href="../../../css/master.css", media="screen", title="no title", charset="utf-8")
+	
+	title Adventure
+body
+	#bg1
+	#bg2
+	header
+		h1 C&D
+	#mBody
+		#scene
+			img(src="../../../img/riverbedWithDice.png", alt="The Current Scene Is Broken... Sorry")
+		#choiceDescription
+			#description
+				h1 How Very Strange...
+				p As you pick up the strange multisided rock you feel an unknow emotion come over you.. It feels as if the rock has immense power.. though you have never seen anything like it, somehow it feels… familiar. You are’nt sure what to make of it so you DECIDE TO:
+			#choices
+				a(href="pouchIt.html")
+					div.choice.LT#pouchIt
+						h1 Place it in your pouch
+				a(href="throwIt.html")
+					div.choice.RT#throwIt
+						h1 Throw it back into the river
+
+	
+	script(type="text/javascript", src="../js/script.js")
+		
