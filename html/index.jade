@@ -1,35 +1,55 @@
 doctype html
 head
 	meta(charset="utf-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
 	link(rel="stylesheet", href="../css/master.css", media="screen", title="no title", charset="utf-8")
+	link(rel="stylesheet", href="../../../css/breakpoints.css", media="screen", title="no title", charset="utf-8")
+	
+	
+	//bootstrap
+	//Latest compiled and minified CSS//
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
+
+	// optional theme
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css", integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r", crossorigin="anonymous")
 	
 	title Adventure
 body
-	#bg1
-	#bg2
+	.row
+		#bg1.col-xs-12
+		#bg2.col-xs-12
 	header
 		h1 C&D
-	#mBody
-		#scene
-			img(src="../img/Untitled.png", alt="The Current Scene Is Broken... Sorry")
-		#choiceDescription
-			#description
-				h1 You Awaken in a Forest..
-				p You are shaken.. not sure of the details of how you came to be here.. You find a stream next to you, and splash your face to try and jogg your memory.
-			#choices
-				a(href="firstChoice/human.html")
-					div.choice.LT#human
-						h1 Remember that your race is Human
-				a(href="firstChoice/orc.html")
-					div.choice.RT#orc
-						h1 Remember that your race is Orcish
-				a(href="firstChoice/elf.html")
-					div.choice.LB#elf
-						h1 Remember that your race is Elvish
-				a(href="firstChoice/dwarf.html")
-					div.choice.RB#dwarf
-						h1 Remember that your race is Dwarvish
+	.container
+		#mBody
+			.row
+				#scene
+					img.col-xs-12(src="../img/Untitled.png", alt="The Current Scene Is Broken... Sorry")
+			.row
+				#choiceDescription.col-xs-12.col-sm-10.col-sm-offset-1
+					.row
+						#description.col-xs-12
+							h1 You Awaken in a Forest Next to a River..
+							p You are shaken.. A throbbing pain your head. Not sure of the details of how you came to be here.. Or even your identity for that matter.. You find a stream next to you, and splash your face to try and jogg your memory.
+					.row
+						#choices.col-xs-12
+								.row
+									a(href="firstChoice/human.html")
+											div.choice.col-xs-12.col-sm-5#human
+												h1 Remember that your race is Human			
+									a(href="firstChoice/orc.html")
+										div.choice.col-xs-12.col-sm-5.col-sm-offset-2#orc
+											h1 Remember that your race is Orcish
+								.row			
+									a(href="firstChoice/elf.html")
+										div.choice.col-xs-12.col-sm-5#elf
+											h1 Remember that your race is Elvish		
+									a(href="firstChoice/dwarf.html")
+										div.choice.col-xs-12.col-sm-5.col-sm-offset-2#dwarf
+											h1 Remember that your race is Dwarvish
 
 	
 	script(type="text/javascript", src="../js/script.js")
+	//Latest compiled and minified JavaScript for bootstrap
+	script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", crossorigin="anonymous")
 		

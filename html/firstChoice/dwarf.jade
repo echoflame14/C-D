@@ -1,26 +1,45 @@
 doctype html
 head
 	meta(charset="utf-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
 	link(rel="stylesheet", href="../../css/master.css", media="screen", title="no title", charset="utf-8")
+	link(rel="stylesheet", href="../../../css/breakpoints.css", media="screen", title="no title", charset="utf-8")
+	
+	
+	//bootstrap
+	//Latest compiled and minified CSS//
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
+
+	// optional theme
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css", integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r", crossorigin="anonymous")
 	
 	title Adventure
 body
-	#bg1
-	#bg2
+	.row
+		#bg1.col-xs-12
+		#bg2.col-xs-12
 	header
 		h1 C&D
-	#mBody
-		#scene
-			img(src="../../img/riverbed.png", alt="The Current Scene Is Broken... Sorry")
-		#choiceDescription
-			#description
-				h1 Of Course Your race is Dwarvish
-				p You are’nt usually the type to go for water.. you think to yourself: perhaps I had a bit too much last night. Hazily you go in for another gulp thinking it might help with the throbbing pain in your head. As you reach into the stream you notice a rock unlike any you have seen before.
-			#choices
-				a(href="secondChoice/examine.html")
-					div.choice.MD#examine
-						h1 Examine the strange rock
-
+	.container
+		#mBody
+			.row
+				#scene
+					img.col-xs-12(src="../../img/riverbed.png", alt="The Current Scene Is Broken... Sorry")
+			.row
+				#choiceDescription.col-xs-12.col-sm-10.col-sm-offset-1
+					.row
+						#description.col-xs-12
+							h1 Of Course You’re A Dwarf
+							p You are’nt usually the type to go for water.. you think to yourself: perhaps I had a bit too much last night. Hazily you go in for another gulp thinking it might help with the throbbing pain in your head. As you reach into the stream you notice a rock unlike any you have seen before.
+					.row
+						#choices.col-xs-12
+								.row
+									a(href="secondChoice/examine.html")
+											div.choice.col-xs-12.col-sm-6.col-sm-offset-3#human
+												h1 Examine The Strange Rock
+								
 	
 	script(type="text/javascript", src="../js/script.js")
+	//Latest compiled and minified JavaScript for bootstrap
+	script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", crossorigin="anonymous")
 		
