@@ -1,7 +1,19 @@
 //style
 	//I want to make a text adventure game that will utilize traditional rpg elements
 		// Elements like stats and saving throws.
-			// I want the player to be able to choose which stats they want to allocate where.
+			// I want the player to make choices
+				// using dialog boxes
+					// and example of this would be perception
+						// the user could be given the prompt to notice certain aspects of their surroundings
+							// such as
+								// You look around, and notice:
+									// a large ******* Per.chk 50%
+									// a large ****** with a ******** it seems to have a **** PER.chk 20%
+									// a *** Per.chk 80%
+									// a brown shape in the distance per.chk 100%;
+							// stats would start off all being 5
+								// a succesfull chk would bump it up by .5 or 1 depending on the difficulty
+								// a "lazy" chk would result in the stat being unchanged
 		// I want the site to have one page (no navbars)
 			// I want a sort of fantasy theme for the site
 			// I want the feel of the site to change for the specific event that is happening in the story.
