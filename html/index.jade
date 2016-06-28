@@ -32,22 +32,22 @@ body
 					.row
 						#choices.col-xs-12
 								.row
-									a(href="firstChoice/human.html")
+									a(href="firstChoice/human.html",onClick=("init();"))
 											div.choice.col-xs-12.col-sm-5#human
 												h1 Remember that your race is Human			
-									a(href="firstChoice/orc.html")
+									a(href="firstChoice/orc.html",onClick=("init();"))
 										div.choice.col-xs-12.col-sm-5.col-sm-offset-2#orc
 											h1 Remember that your race is Orcish
 								.row
-									a(href="firstChoice/elf.html")
+									a(href="firstChoice/elf.html",onClick=("init();"))
 										div.choice.col-xs-12.col-sm-5#elf
 											h1 Remember that your race is Elvish		
-									a(href="firstChoice/dwarf.html")
+									a(href="firstChoice/dwarf.html",onClick=("init();"))
 										div.choice.col-xs-12.col-sm-5.col-sm-offset-2#dwarf
 											h1 Remember that your race is Dwarvish
 
 	
-script(type="text/javascript", src="../js/script.js")
+script(src="../js/script.js")
 	//Latest compiled and minified JavaScript for bootstrap
 script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", crossorigin="anonymous")
 		

@@ -8,7 +8,7 @@
 							// such as
 								// You look around, and notice:
 									// a large ******* Per.chk 50%
-									// a large ****** with a ******** it seems to have a **** PER.chk 20%
+									// a large ****** with a ******** in it's ******* PER.chk 20%
 									// a *** Per.chk 80%
 									// a brown shape in the distance per.chk 100%;
 							// stats would start off all being 5

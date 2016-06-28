@@ -1,1 +1,58 @@
-<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="../css/master.css" media="screen" title="no title" charset="utf-8"><link rel="stylesheet" href="../../../css/breakpoints.css" media="screen" title="no title" charset="utf-8"><!--bootstrap--><!--Latest compiled and minified CSS//--><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"><!-- optional theme--><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"><title>Adventure</title></head><body><div class="row"></div><header><h1>C&D</h1></header><div class="container"><div id="mBody"><div class="row"><div id="scene"><img src="../img/Untitled.png" alt="The Current Scene Is Broken... Sorry" class="col-xs-12"></div></div><div class="row"><div id="choiceDescription" class="col-xs-12 col-sm-10 col-sm-offset-1"><div class="row"><div id="description" class="col-xs-12"><h1>You Awaken in a Forest Next to a River..</h1><p>You are shaken.. A throbbing pain your head. Not sure of the details of how you came to be here.. Or even your identity for that matter.. You find a stream next to you, and splash your face to try and jogg your memory.</p></div></div><div class="row"><div id="choices" class="col-xs-12"><div class="row"><a href="firstChoice/human.html"><div id="human" class="choice col-xs-12 col-sm-5"><h1>Remember that your race is Human			</h1></div></a><a href="firstChoice/orc.html"><div id="orc" class="choice col-xs-12 col-sm-5 col-sm-offset-2"><h1>Remember that your race is Orcish</h1></div></a></div><div class="row"><a href="firstChoice/elf.html"><div id="elf" class="choice col-xs-12 col-sm-5"><h1>Remember that your race is Elvish		</h1></div></a><a href="firstChoice/dwarf.html"><div id="dwarf" class="choice col-xs-12 col-sm-5 col-sm-offset-2"><h1>Remember that your race is Dwarvish</h1></div></a></div></div></div></div></div></div></div></body><script type="text/javascript" src="../js/script.js"><!--Latest compiled and minified JavaScript for bootstrap--></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/master.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="../../../css/breakpoints.css" media="screen" title="no title" charset="utf-8">
+  <!--bootstrap-->
+  <!--Latest compiled and minified CSS//-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- optional theme-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <title>Adventure</title>
+</head>
+<body>
+  <div class="row"></div>
+  <header>
+    <h1>C&D</h1>
+  </header>
+  <div class="container">
+    <div id="mBody">
+      <div class="row">
+        <div id="scene"><img src="../img/Untitled.png" alt="The Current Scene Is Broken... Sorry" class="col-xs-12"></div>
+      </div>
+      <div class="row">
+        <div id="choiceDescription" class="col-xs-12 col-sm-10 col-sm-offset-1">
+          <div class="row">
+            <div id="description" class="col-xs-12">
+              <h1>You Awaken in a Forest Next to a River..</h1>
+              <p>You are shaken.. A throbbing pain your head. Not sure of the details of how you came to be here.. Or even your identity for that matter.. You find a stream next to you, and splash your face to try and jogg your memory.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div id="choices" class="col-xs-12">
+              <div class="row"><a href="firstChoice/human.html" onClick="init();">
+                  <div id="human" class="choice col-xs-12 col-sm-5">
+                    <h1>Remember that your race is Human			</h1>
+                  </div></a><a href="firstChoice/orc.html" onClick="init();">
+                  <div id="orc" class="choice col-xs-12 col-sm-5 col-sm-offset-2">
+                    <h1>Remember that your race is Orcish</h1>
+                  </div></a></div>
+              <div class="row"><a href="firstChoice/elf.html" onClick="init();">
+                  <div id="elf" class="choice col-xs-12 col-sm-5">
+                    <h1>Remember that your race is Elvish		</h1>
+                  </div></a><a href="firstChoice/dwarf.html" onClick="init();">
+                  <div id="dwarf" class="choice col-xs-12 col-sm-5 col-sm-offset-2">
+                    <h1>Remember that your race is Dwarvish</h1>
+                  </div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="../js/script.js">
+  <!--Latest compiled and minified JavaScript for bootstrap-->
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
